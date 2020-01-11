@@ -1,4 +1,5 @@
 #!/bin/sh
+# Script to renew kerberos ticket for HDFS namenode and datanode
 su - hdfs
 cd  /var/run/cloudera-scm-agent/process/
 path=/var/run/cloudera-scm-agent/process/
